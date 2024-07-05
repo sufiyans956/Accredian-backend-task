@@ -12,5 +12,4 @@ model refer{
   id Int @id @default(autoincrement())
   referalname String 
   referalemail String
-  referaldate DateTime @default(now())
 }
